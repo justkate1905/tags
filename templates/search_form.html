@@ -1,11 +1,15 @@
 <html>
 <head>
-    <title>Search for your tag!</title>
+<title>Search for your tag!</title>
 </head>
 <body>
-    <form action="" method="get">
-        <input type="text" name="tag">
-        <input type="submit" value="Find it">
-    </form>
+<form action="/search/" method="GET">
+<input type="search" name="tag"/><br/>
+<input type="date" name="start_date"/><br/>
+<input type="date" name="end_date"/><br/>
+<input type="range" min="1" max="24" name="interval"/><br/>
+<input type="color" name="interval"/><br/>
+<input type="submit" value="Find it"/>
+</form>
 </body>
 </html>
